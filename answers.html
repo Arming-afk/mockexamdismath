@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discrete Mathematics Exam Answers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .module {
+            margin-bottom: 20px;
+        }
+        .answer {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Discrete Mathematics Exam Answers</h1>
+
+    <!-- Module 1: Propositional & Predicate Logic Answers -->
+    <div class="module">
+        <h2>Module 1: Propositional & Predicate Logic</h2>
+        <div class="answer">
+            1. Are these sentences propositions?  
+            1.1. No  
+            1.2. Yes  
+            1.3. No  
+            1.4. Yes  
+            1.5. Yes
+        </div>
+        <div class="answer">
+            2. Given the proposition:  
+            2.1. (p ∧ q) → r  
+            2.2. r → (p ∧ q)  
+            2.3. ¬r → ¬(p ∧ q)  
+            2.4. ¬(p ∧ q) → ¬r  
+            2.5. ¬((p ∧ q) → r)
+        </div>
+        <div class="answer">
+            3. Truth Table Evaluation: Fill the truth table for (p ∨ q) ∧ (¬p ∨ r).
+            <br> Truth table depends on the values of p, q, and r:
+            <br> | p | q | r | (p ∨ q) ∧ (¬p ∨ r) |
+            <br> | T | T | T | T |
+            <br> | T | T | F | F |
+            <br> | T | F | T | T |
+            <br> | T | F | F | F |
+            <br> | F | T | T | T |
+            <br> | F | T | F | T |
+            <br> | F | F | T | T |
+            <br> | F | F | F | F |
+        </div>
+        <div class="answer">
+            4. Determine the nature of the statements:  
+            4.1. Tautology  
+            4.2. Contingency
+        </div>
+        <div class="answer">
+            5. Truth value evaluation:  
+            5.1. False  
+            5.2. True
+        </div>
+    </div>
+
+    <!-- Module 2: Set Theory Answers -->
+    <div class="module">
+        <h2>Module 2: Set Theory</h2>
+        <div class="answer">
+            1. Survey answers:  
+            1.1. 18 students like only tea  
+            1.2. 8 students like only coffee  
+            1.3. 14 students do not like either tea or coffee  
+        </div>
+        <div class="answer">
+            2. Set operations:  
+            2.1. A ∩ B = {6, 12, 18}  
+            2.2. A ∪ B = {2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20}  
+            2.3. A - B = {2, 4, 8, 10, 14, 16, 20}
+        </div>
+        <div class="answer">
+            3. Universal set operations:  
+            3.1. C' ∩ D = {2, 5, 9}  
+            3.2. (C ∪ D)' = {3, 7, 10}
+        </div>
+    </div>
+
+    <!-- Module 3: Math Induction & Proofs -->
+<div class="module">
+    <h2>Module 3: Proofs and Math Induction</h2>
+
+    <!-- Proof Writing - Odd/Even -->
+    <div class="answer">
+        1. Proof Writing - Odd/Even:  
+        We want to prove that the product of two odd numbers is always odd.
+        <br><br>
+        **Proof:**
+        <br> Let the two odd numbers be written as a = 2m + 1 and b = 2n + 1 for some integers m and n. Their product is:
+        <br>
+        a × b = (2m + 1)(2n + 1) = 4mn + 2m + 2n + 1 = 2(2mn + m + n) + 1
+        <br>
+        Since this result is in the form 2k + 1, where k = 2mn + m + n, this is the general form of an odd number. Therefore, the product of two odd numbers is always odd.
+    </div>
+
+    <!-- Proof Structure Completion -->
+    <div class="answer">
+        2. Proof Structure Completion - Complex Fill-in-the-Blank:  
+        We want to prove that the sum of the squares of three consecutive odd numbers is even.
+        <br><br>
+        **Proof:**
+        <br> Let the three consecutive odd numbers be (n - 2), n, and (n + 2). Their squares are:
+        <br>
+        (n - 2)<sup>2</sup> + n<sup>2</sup> + (n + 2)<sup>2</sup> = n<sup>2</sup> - 4n + 4 + n<sup>2</sup> + n<sup>2</sup> + 4n + 4 = 3n<sup>2</sup> + 8
+        <br>
+        Since 3n<sup>2</sup> + 8 is always even (because 3n<sup>2</sup> is divisible by 2 and 8 is an even number), the sum of the squares of three consecutive odd numbers is always even.
+    </div>
+
+    <!-- Induction Proof - Detailed -->
+    <div class="answer">
+        3. Induction Proof - Difficult Version:  
+        We want to prove by induction that the sum of the squares of even numbers from 1 to 2n is equal to n(2n + 1)(n + 1) / 3.
+        <br><br>
+        **Step 1: Base Case**  
+        For n = 1, the sum of squares of even numbers from 1 to 2n is just:
+        <br>
+        2<sup>2</sup> = 4
+        <br>
+        The formula on the right-hand side for n = 1 is:
+        <br>
+        (1(2(1) + 1)(1 + 1)) / 3 = (1 × 3 × 2) / 3 = 4
+        <br>
+        Since both sides are equal, the base case holds.
+        <br><br>
+        **Step 2: Inductive Hypothesis**  
+        Assume that the formula holds for n = k. That is:
+        <br>
+        2<sup>2</sup> + 4<sup>2</sup> + 6<sup>2</sup> + ... + (2k)<sup>2</sup> = (k(2k + 1)(k + 1)) / 3
+        <br><br>
+        **Step 3: Inductive Step**  
+        Consider the sum of squares for n = k + 1, which means adding (2(k + 1))<sup>2</sup> to the inductive hypothesis:
+        <br>
+        2<sup>2</sup> + 4<sup>2</sup> + ... + (2k)<sup>2</sup> + (2(k + 1))<sup>2</sup>
+        <br>
+        Using the inductive hypothesis, we can write:
+        <br>
+        (k(2k + 1)(k + 1)) / 3 + (2(k + 1))<sup>2</sup>
+        <br>
+        Simplifying (2(k + 1))<sup>2</sup> = 4(k + 1)<sup>2</sup>, we get:
+        <br>
+        (k(2k + 1)(k + 1)) / 3 + 4(k + 1)<sup>2</sup>
+        <br>
+        Factor out (k + 1):
+        <br>
+        (k + 1) × [(k(2k + 1)) / 3 + 4(k + 1)]
+        <br>
+        Simplifying inside the parentheses:
+        <br>
+        (k + 1) × [(2k<sup>2</sup> + k + 12k + 12) / 3] = (k + 1)(2k<sup>2</sup> + 13k + 12) / 3
+        <br>
+        This matches the original formula for n = k + 1:
+        <br>
+        (k + 1)(2(k + 1) + 1)((k + 1) + 1) / 3
+        <br>
+        Thus, the inductive step holds, completing the proof by induction.
+    </div>
+</div>
+
+
+
+
+    <!-- Rule of Inference Answers -->
+    <div class="module">
+        <h2>Rule of Inference</h2>
+        <div class="answer">
+            1. Use Modus Tollens to prove ¬p:
+            <br> From ¬r and q → r, we can infer ¬q. Then from ¬q and p → q, we can infer ¬p.
+        </div>
+        <div class="answer">
+            2. Invalid Inference - Fallacy:  
+            The inference is invalid because it commits the fallacy of "affirming the consequent." From \(p → q\) and \(q\), you cannot conclude \(p\).
+        </div>
+        <div class="answer">
+            3. Complex Inference Proof:  
+            Using hypothetical syllogism and other inference rules, we can prove that r follows from the premises given.
+        </div>
+    </div>
+
+</body>
+</html>
